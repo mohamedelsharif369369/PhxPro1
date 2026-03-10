@@ -1,0 +1,5 @@
+  live "/users", UserLive.Index, :index # ← 
+  أضف هذا السطر live "/exams", ExamLive.Index, 
+  :index live "/exams/:id/solve", 
+  ExamLive.Solve, :show live "/login", 
+  SessionLive.Login, :new
